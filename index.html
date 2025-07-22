@@ -10,15 +10,15 @@
   <title>Legal Solution</title>
 </head>
 
-<body class="text-gray-700 text-[16px] font-normal poppins-regular">
+<body class="text-gray-700 font-display">
 
   <!-- header  -->
-  <header class="flex justify-between items-center py-10 mx-auto max-w-[1170px]">
+  <header class="flex flex-col md:flex-row justify-between items-center py-10 mx-auto max-w-[1170px]">
     <div class="flex">
       <img src="./images/logo2.png" alt="Logo">
     </div>
     <nav class="hidden md:flex gap-6 text-sm flex-row text-[16px] font-normal poppins-regular">
-      <ul class="flex flex-row gap-6">
+      <ul class="flex flex-col md:flex-row gap-6">
         <li class="nav-li"><a href="/index.html" class="text-gray-700 hover:text-yellow-600">Home</a></li>
         <li class="nav-li"><a href="#" class="text-gray-700 hover:text-yellow-600">Services</a></li>
         <li class="nav-li"> <a href="#" class="text-gray-700 hover:text-yellow-600">Cases</a></li>
@@ -31,6 +31,24 @@
     </button>
 
   </header>
+
+  <!-- Hero section -->
+  <section class="relative mx-auto max-w-[1170px] mb-[120px]">
+    <div class="relative w-full h-[500px] rounded overflow-hidden">
+      <img src="./images/banner.png" alt="Hero Banner" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-[linear-gradient(to_top,_rgba(17,17,17,1),_rgba(17,17,17,0))]"></div>
+
+    </div>
+    
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+      <h2 class="text-4xl md:text-7xl md:leading-[82px] mb-[24px] ebgaramond-extrabold">We Provide Effective<br> Legal Solutions</h2>
+      <p class="mb-8 max-w-xl poppins-regular text-[16px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      <div class="flex flex-col md:flex-row w-full max-w-lg gap-6">
+        <input type="text" placeholder="Search your services" class="poppins-regular text-[16px] flex-grow px-5 py-5 rounded outline-none text-black">
+        <button class="bg-[#B68C5A] text-white p-4 md:px-6 rounded poppins-semibold text-[20px]">Search</button>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
